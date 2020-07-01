@@ -1,0 +1,130 @@
+body {
+background-color: #a6dcef;
+color: #192965;
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+line-height: 1.5;
+letter-spacing: 1px;
+font-weight: 100;
+text-align:center;
+}
+
+h1 {
+  color: #192965;
+  font-weight: 900;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 35px;
+}
+h2 {
+  color: #192965;
+  font-weight: 800;
+  font-family: 'Source Serif Pro', serif;
+  Font-size: 28px;
+  border-top: 5px
+}
+
+h1,h2 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color:#363636;
+  text-align: center;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #336d88;
+  font-weight: 300;
+}
+
+
+@media (max-width: 760px) {
+  .container {
+    width:600px;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    width:400px;
+  }
+}
+
+
+#Profilbild {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Deko {
+  width:150px;
+  height:120px;
+  border-radius:0%;
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+  padding: 0px;
+  border-radius: 50%;
+}
+
+/* Custom Design with Class */
+
+.container{
+  width:700px;
+  margin:40px auto;
+}
+
+.Box {
+  background:white;
+  padding: 30px;
+  border-radius: 8px;
+  margin:25px auto;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.Box:hover{
+  background-color: #f7f5dd;
+}
+
+.btn-blue {
+  background-color: #a6dcef;
+  color:white;
+  padding: 5px 7px;
+  border-radius: 8px;
+}
+
+.btn-blue:hover{
+  background-color: #363636;
+  color:white;
+  padding: 7px 10px;
+  font-weight: 300;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display:inline;
+  padding:10px;
+}
+
+.list-inline i {
+  font-size:50px;
+  color:#a6dcef;
+}
+
+.list-inline i:hover {
+  font-size:55px;
+  color:#363636;
+}
+
+#MainBox p {
+  margin-bottom: 50px;
+}
